@@ -1,3 +1,4 @@
+A copy and edit for use base64 images from
 # react-native-image-slider-banner
 
 [![npm](https://img.shields.io/npm/v/react-native-image-slider-banner.svg)](https://www.npmjs.com/package/react-native-image-slider-banner)  ![npm](https://img.shields.io/npm/dt/react-native-image-slider-banner.svg)
