@@ -117,7 +117,7 @@ export const ImageSlider = ({
                             return (
                                 <Animated.Image 
                                     key={`image-${ind}`}
-                                    source={localImg ? val.img : {uri: val.img}}
+                                    source={{uri: val.img}}
                                     style={[StyleSheet.absoluteFillObject, {opacity}]}
                                     blurRadius={blurRadius}
                                     
@@ -156,7 +156,7 @@ export const ImageSlider = ({
                                         <Icon onPress={() => setImageViewer(!imageViewer)} name="close" size={34} color={closeIconColor} />
                                     </TouchableOpacity>
                                     <Image 
-                                        source={localImg ? item.img : {uri: item.img}}
+                                        source={{uri: item.img}}
                                         style={[styles.previewImageStyle, previewImageStyle]}
                                     />
                                 </View>
