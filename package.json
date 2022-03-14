@@ -1,6 +1,6 @@
 {
-  "name": "react-native-image-slider-banner",
-  "version": "1.0.2",
+  "name": "react-native-image-slider-banner-base64",
+  "version": "1.0.0",
   "description": "A simple and fully customizable React Native Component that implements Image and Banner Slider UI with animations.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mudassirraza912/react-native-image-slider-banner.git"
+    "url": "git+https://github.com/S3xyGod/react-native-image-slider-banner.git"
   },
   "keywords": [
     "react-native-image-slider-banner",
